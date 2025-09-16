@@ -89,6 +89,33 @@ A comprehensive Django-based hotel booking platform with modern UI/UX, built as 
 
 ---
 
+### ✅ Verifying the Setup
+After starting the server, you can verify that all parts of the application are working by visiting these URLs:
+
+- **Homepage**: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)  
+  Should display the hotel search interface.
+
+- **Admin Panel**: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)  
+  Log in with the superuser credentials you created.
+
+- **User Registration**: [http://127.0.0.1:8000/accounts/register/](http://127.0.0.1:8000/accounts/register/)  
+  Test the new user signup flow.
+
+- **User Login**: [http://127.0.0.1:8000/accounts/login/](http://127.0.0.1:8000/accounts/login/)  
+  Test logging in with a registered user.
+
+---
+
+### 🎯 First Steps After Setup
+To begin exploring the platform's full functionality, here are some recommended actions:
+
+1. **Log into the Admin Panel** (`/admin/`) with your superuser account.  
+2. **Add Sample Hotels**: Use the admin interface to create a few hotel listings. This will populate the homepage and make the search functionality testable.  
+3. **Create a Test User Account**: Sign out of the admin account and register a new, regular user via the `/accounts/register/` page.  
+4. **Test the Booking Flow**: Log in as the regular user, search for a hotel you created, and attempt to make a booking to test the end-to-end workflow.
+
+---
+
 ## 📁 Project Structure
 
 ```text
@@ -372,5 +399,4 @@ This project is licensed under the **MIT License** – see the LICENSE file for 
 
 ---
 
-✅ Developed by Panav Payappagoudar for SIH'25 , it is just my part that i contributed to the team.
-```
+Developed by Panav Payappagoudar
