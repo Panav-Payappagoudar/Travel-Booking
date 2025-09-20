@@ -624,4 +624,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-The README now serves as a complete guide for developers, users, and administrators to understand, deploy, and contribute to the Jet2holidayz platform. It reflects the current state of the fully functional MVP with features implemented.
