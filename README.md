@@ -622,5 +622,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Support](mailto:support@jet2holidayz.com)
 ```
 
-
-
